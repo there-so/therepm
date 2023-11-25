@@ -1,23 +1,22 @@
-import styled, { css } from 'styled-components'
+import styled, { css } from "styled-components";
 
-import config from '../utils/config'
-import { phone } from '../utils/media'
+import config from "../utils/config";
+import { phone } from "../utils/media";
 
 const Footer = () => (
   <Wrapper>
     <p>
-      Made with <span>❤️</span> by <a href="https://twitter.com/morajabi">Mo</a>{' '}
-      and other team members @ There™
+      Made with <span>❤️</span> by <a href="https://twitter.com/morajabi">Mo</a>{" "}
+      and other team members @ Noor™
     </p>
     <p>
-      <LinkItem href={config.whatsNewPageUrl}>🌟 What's New?</LinkItem>{' '}
-      <LinkItem href="/privacy">Privacy Policy</LinkItem>{' '}
+      <LinkItem href="/privacy">Privacy Policy</LinkItem>{" "}
       <LinkItem href="/terms">Terms</LinkItem>
     </p>
   </Wrapper>
-)
+);
 
-export default Footer
+export default Footer;
 
 const Wrapper = styled.footer`
   margin-top: 120px;
@@ -35,7 +34,7 @@ const Wrapper = styled.footer`
   ${phone(css`
     margin-top: 80px;
   `)};
-`
+`;
 
 const LinkItem = styled.a`
   display: inline-block;
@@ -46,4 +45,4 @@ const LinkItem = styled.a`
   &:last-child {
     margin-right: 0;
   }
-`
+`;

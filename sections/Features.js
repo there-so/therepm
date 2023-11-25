@@ -30,7 +30,7 @@ const Features = () => (
           iconTop={-12}
           iconLeft={-25}
         />
-        <SlackBox />
+        {/* <SlackBox /> */}
       </GridWrapper>
     </Container>
   </Wrapper>

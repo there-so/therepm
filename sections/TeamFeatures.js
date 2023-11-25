@@ -11,59 +11,53 @@ import { Circle, Rect, Triangle } from "../components/Svgs";
 const TeamFeatures = () => (
   <Wrapper>
     <Container>
-      <SectionHeading style={{ marginBottom: 50 }}>
-        Team Features{" "}
-        <sup
-          style={{
-            opacity: 0.5,
-            fontSize: "0.4em",
-            fontFamily: '"Work Sans", sans-serif',
-            fontWeight: "normal",
-          }}
-        >
-          Coming soon!
-        </sup>
-      </SectionHeading>
+      <SectionHeading>Noor Features</SectionHeading>
+
       <GridWrapper>
         <FeatureItem
-          title="Scheduler Board"
-          desc="Choose who's attending, and pick the best time based on their local time"
-          renderIcon={() => <Rect />}
-          iconTop={-6}
-          iconLeft={-14}
-        />
-        <FeatureItem
-          title="Teams"
-          desc="Create a team, and your team members can instantly have all team members"
+          title="Messaging"
+          desc="Message once and reach every relevant conversation."
           renderIcon={() => <Triangle />}
           iconTop={-10}
           iconLeft={-9}
         />
+
         <FeatureItem
-          title="Work Times"
-          desc="It's super important to not bug your team member while they're off"
+          title="Focus Mode"
+          desc="Notifications that don't disrupt your flow."
           renderIcon={() => <Circle />}
           iconTop={-12}
           iconLeft={-25}
         />
+
         <FeatureItem
-          title="Team Feed"
-          desc="See what all your co workers are up to right now."
-          renderIcon={() => <Circle />}
-          iconTop={-12}
-          iconLeft={-25}
+          title="Real Time Collaboration"
+          desc="Seamless voice, screen sharing and presence."
+          renderIcon={() => <Rect />}
+          iconTop={-6}
+          iconLeft={-14}
         />
+
         <FeatureItem
-          title="Travels"
-          desc="Anyone travelling while working knows how hard coordination can get."
+          title="Shared Notes (tasks)"
+          desc="Shared task management to stay in sync."
           renderIcon={() => <Triangle />}
           iconTop={-12}
           iconLeft={-25}
         />
+
         <FeatureItem
-          title="Suggested Times"
-          desc="When is the best time to kick-off a conversation to not distract, but enjoy!"
-          renderIcon={() => <Rect />}
+          title="Cross Platform"
+          desc="Available on Mac, IOS and web"
+          renderIcon={() => <Circle />}
+          iconTop={-12}
+          iconLeft={-25}
+        />
+
+        <FeatureItem
+          title="Offline Support"
+          desc="Access your chats even without an internet connection."
+          renderIcon={() => <Triangle />}
           iconTop={-12}
           iconLeft={-12}
         />
@@ -81,7 +75,7 @@ const SubscribeToTeams = () => (
     <SlackFeatureItemWrapper>
       <FeatureItem
         title="Install Noor Now"
-        desc="Let's help all the teams with There, together with our tiny team!"
+        desc="We’re now building the best team chat app"
       />
       <br />
       <ButtonLink href="https://noor.to">Download Noor</ButtonLink>
