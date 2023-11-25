@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import styled, { css } from "styled-components";
 
 import config from "../utils/config";
